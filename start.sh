@@ -6,5 +6,5 @@ sudo apt-get install python3 python3-virtualenv -y
 virtualenv -p /usr/bin/python3 handson
 source handson/bin/activate
 #start jupyter and have fun
-pip3 install jupyter tensorflow-gpu keras
+pip3 install jupyter numpy scipy matplotlib 
 jupyter notebook
