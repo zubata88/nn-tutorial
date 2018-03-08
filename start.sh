@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install python3 python3-virtualenv and jupyter
-sudo apt-get install python3 python3-virtualenv -y
+sudo apt-get install python3 python3-virtualenv virtualenv -y
 #set up virtualenv for handson
 virtualenv -p /usr/bin/python3 handson
 source handson/bin/activate
